@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width:100%;
+    /* background-color: black; */
+    background-color: #F1F2F4;
+    /* background-color: aquamarine; */
+    overflow: auto;
+    
+
+    
+
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: rgb(242, 151, 151); */
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    /* justify-content:space-around; */
+    margin-left: 80px;
+
+    width: 50%;
+}
+#nav1 h4{
+    color: #2A55E5;
+    font-size: 35px;
+    font-weight: 900;
+}
+#searchbar{
+    margin-left: 50px;
+    /* padding: 10px 250px; */
+    width: 770px;
+    padding: 15px 0px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #F0F5FF;
+    font-size: 15px;
+    font-weight: 500;
+}
+#nav1 i{
+    position: absolute;
+    margin-left: 180px;
+}
+#nav2{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 50%;
+
+}
+#nav2 h6{
+    font-size: 20px;
+    font-weight: 100;
+}
+#product-varities{
+    width:99%;
+    height: 15%;
+    background-color: #FFFFFF;
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-right: 100px; */
+    padding-right: 10px;
+    text-align: center;
+
+}
+#product-varities h5{
+    
+    margin-top: 2px;
+    font-size: 17px;
+    font-weight: 100;
+}
+#crousal{
+     margin: 10px 10px;
+
+    width: 99%;
+    height: 33%;
+    background-color: rgb(168, 110, 110);
+    
+
+}
+#sb-card{
+    width: 99%;
+    height: 17.5%;
+    
+    margin: 14px 10px;
+}
+#smart-phones{
+    width: 99%;
+    height: 48%;
+    /* background-color: #ee0c0c; */
+    margin: 14px 10px;
+    padding: 30px 10px;
+
+}
+#smart-phones h4{
+    font-weight: 1000;
+
+}
+#phones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#first{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#first img{
+    height: 189px;
+    width: 190px;
+
+}
+#first p{
+    padding-left: 50px;
+    margin-top: 10px;
+}
